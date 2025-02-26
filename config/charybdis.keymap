@@ -71,6 +71,17 @@
     };
 
     behaviors {
+        hm: homerow_mods {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <240>;
+            quick-tap-ms = <150>;
+            bindings =
+                <&kp>,
+                <&kp>;
+        };
+
         comma_morph: comma_morph {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -142,7 +153,7 @@
         BASE {
             bindings = <
 &kp W             &kp L             &kp Y          &kp P               &kp B               &kp Z          &kp F               &kp O          &kp U              &kp SQT
-&kp C             &kp R             &kp S          &kp T               &kp G               &kp M          &kp N               &kp E          &kp I              &kp A
+&hm LSHFT C       &hm LCTRL R       &hm LALT S     &hm LGUI T          &kp G               &kp M          &hm LGUI N          &hm RALT E     &hm RCTRL I        &hm RSHFT A
 &kp Q             &kp J             &kp V          &kp D               &kp K               &kp X          &kp H               &comma_morph   &dot_morph         &qexcl
                                     XXX            &lt NAV SPACE       &mo NUM             &mo SYM        &smart_shift
             >; 
