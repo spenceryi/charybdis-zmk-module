@@ -171,7 +171,7 @@
         SYM {
             bindings = <
 XXX               &kp LBKT          &kp LBRC        &kp LPAR           &kp LT              &kp GT        &kp RPAR            &kp RBRC          &kp RBKT        &kp GRAVE
-&kp MINUS         &kp STAR          &kp EQUAL       &kp UNDER          &kp DLLR            &kp HASH      &sk LGUI            &sk RALT          &sk RCTRL       &sk RSHFT
+&kp MINUS         &kp STAR          &kp EQUAL       &kp UNDER          &kp DLLR            &kp HASH      &kp LGUI            &kp RALT          &kp RCTRL       &kp RSHFT
 &kp PLUS          &kp PIPE          &kp AT          &kp FSLH           &kp PRCNT           &kp SQT       &kp BSLH            &kp AMPS          &kp CARET       &kp TILDE
                                     ___             ___                ___                 ___           ___
             >;            
@@ -180,7 +180,7 @@ XXX               &kp LBKT          &kp LBRC        &kp LPAR           &kp LT   
         NAV {
             bindings = <
 XXX               XXX               XXX             &kp TAB            &kp C_VOL_UP        &kp PG_UP     &kp BSPC            NAV_UP            &kp DEL         &kp ESC
-&sk LSHFT         &sk LCTRL         &sk LALT        &sk LGUI           &kp C_VOL_DN        &kp PG_DN     NAV_LEFT            NAV_DOWN          NAV_RIGHT       &kp RET
+&kp LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           &kp C_VOL_DN        &kp PG_DN     NAV_LEFT            NAV_DOWN          NAV_RIGHT       &kp RET
 &mo SNIPE         &mo SCROLL        &mkp RCLK       &mkp LCLK          &kp C_MUTE          UNDO          XXX                 XXX               XXX             XXX
                                     ___             ___                ___                 ___           ___
             >;            
@@ -198,7 +198,7 @@ XXX               XXX               XXX             XXX                XXX      
         FN {
             bindings = <
 &kp F1            &kp F2            &kp F3          &kp F4             &kp F5              &kp F6        &kp F7              &kp F8            &kp F9          &kp F10
-&sk LSHFT         &sk LCTRL         &sk LALT        &sk LGUI           &kp F11             &kp F12       &sk LGUI            &sk LALT          &sk LCTRL       &sk RSHFT
+&sk LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           &kp F11             &kp F12       &kp LGUI            &kp LALT          &kp LCTRL       &kp RSHFT
 XXX               XXX               XXX             XXX                XXX                 XXX           SWITCH_LANG         &tog QWERTY       XXX             &mo SYS
                                     ___             ___                ___                 ___           ___
             >;            
