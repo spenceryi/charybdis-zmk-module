@@ -198,7 +198,7 @@ XXX               XXX               XXX             XXX                XXX      
         FN {
             bindings = <
 &kp F1            &kp F2            &kp F3          &kp F4             &kp F5              &kp F6        &kp F7              &kp F8            &kp F9          &kp F10
-&sk LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           &kp F11             &kp F12       &kp LGUI            &kp LALT          &kp LCTRL       &kp RSHFT
+&kp LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           &kp F11             &kp F12       &kp LGUI            &kp LALT          &kp LCTRL       &kp RSHFT
 XXX               XXX               XXX             XXX                XXX                 XXX           SWITCH_LANG         &tog QWERTY       XXX             &mo SYS
                                     ___             ___                ___                 ___           ___
             >;            
@@ -216,7 +216,7 @@ XXX               XXX               XXX             XXX                &sys_rese
         SNIPE {
             bindings = <
 XXX               XXX               XXX             XXX                XXX                 XXX           XXX                 XXX               XXX             XXX
-&sk LSHFT         &sk LCTRL         &sk LALT        &sk LGUI           XXX                 XXX           XXX                 XXX               XXX             XXX
+&kp LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           XXX                 XXX           &kp LGUI            &kp LALT          &kp LCTRL       &kp RSHFT
 XXX               &mo SCROLL        &mkp RCLK       &mkp LCLK          XXX                 XXX           XXX                 XXX               XXX             XXX
                                     ___             ___                ___                 ___           ___
             >;            
@@ -225,7 +225,7 @@ XXX               &mo SCROLL        &mkp RCLK       &mkp LCLK          XXX      
         SCROLL {
             bindings = <
 XXX               XXX               XXX             XXX                XXX                 XXX           XXX                 XXX               XXX             XXX
-XXX               XXX               XXX             XXX                XXX                 XXX           XXX                 XXX               XXX             XXX
+&kp LSHFT         &kp LCTRL         &kp LALT        &kp LGUI           XXX                 XXX           &kp LGUI            &kp LALT          &kp LCTRL       &kp RSHFT
 XXX               XXX               XXX             XXX                XXX                 XXX           XXX                 XXX               XXX             XXX
                                     ___             ___                ___                 ___           ___
             >;
